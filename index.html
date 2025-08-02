@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CivicTrack</title>
+  <link href="style.css" rel="stylesheet" />
+ 
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="navbar-logo">CivicEase</h1>
+    <ul class="navbar-links">
+      <li><a href="#" class="navbar-links a">Home</a></li>
+      <li><a href="#" class="navbar-links a">Projects</a></li>
+      <li><a href="#" class="navbar-links a">Submit Issue</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2 class="hero h1">Empowering Citizens to Solve Real Issues</h2>
+    <p class="hero p">CivicTrack connects citizens with local authorities and volunteers to track and resolve community problems transparently.</p>
+  </section>
+
+<!--main section-->
+<!-- Civic Issues Grid Section -->
+<section class="civic-section">
+  <h3 class="section-title">Common Civic Issues</h3>
+  <div class="issue-grid">
+    
+    <!-- Issue Box -->
+    <div class="issue-card">
+      <h4 class="issue-heading red">Road Dump Hole</h4>
+      <p class="issue-description">Potholes causing traffic delays and vehicle damage in several areas.</p>
+    </div>
+
+    <div class="issue-card">
+      <h4 class="issue-heading yellow">Street Lights Not Working</h4>
+      <p class="issue-description">Non-functional lights creating unsafe conditions at night.</p>
+    </div>
+
+    <div class="issue-card">
+      <h4 class="issue-heading blue">Water Supply Problems</h4>
+      <p class="issue-description">Irregular or contaminated water supply in residential zones.</p>
+    </div>
+
+    <div class="issue-card">
+      <h4 class="issue-heading green">Garbage Overflow</h4>
+      <p class="issue-description">Uncollected waste leading to health and hygiene concerns.</p>
+    </div>
+
+    <div class="issue-card">
+      <h4 class="issue-heading indigo">Electricity Outages</h4>
+      <p class="issue-description">Frequent power cuts affecting daily life and productivity.</p>
+    </div>
+
+    <div class="issue-card">
+      <h4 class="issue-heading pink">Open Drainage</h4>
+      <p class="issue-description">Exposed drains causing foul smell and mosquito breeding.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h3 class="projects h2">Recent Civic Inquiries</h3>
+    <div class="project-grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <h4 class="card h3">Fix Streetlight at Block B</h4>
+        <p class="card h3">Reported by: Ramesh Kumar</p>
+        <p class="status">Status: <span class="pending">Pending</span></p>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <h4 class="card h3">Garbage Collection Delay</h4>
+        <p class="card h3">Reported by: Sita Verma</p>
+        <p class="status">Status: <span class="resolved">Resolved</span></p>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <h4 class="card h3">Broken Water Pipe</h4>
+        <p class="card h3">Reported by: Anil Tiwari</p>
+        <p class="status">Status: <span class="urgent">Urgent</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section ">
+    <h3 class="issue-form ">Report a Civic Issue</h3>
+    <form class="issue-form ">
+      <input type="text" placeholder="Your Name" class="issue-form input" required />
+      <input type="text" placeholder="Issue Title" class="issue-form input" required />
+      <textarea placeholder="Describe the issue" rows="4" class="issue-form textarea" required></textarea>
+      <button type="submit" class="issue-form button">Submit Issue</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 text-sm text-gray-500 mt-8">
+    2025 CivicEase.
+  </footer>
+
+</body>
+</html>
